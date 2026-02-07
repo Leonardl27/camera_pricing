@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Camera Pricing Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Security Camera Pricing</h1>
+            <p class="subtitle">Reference prices for quotes</p>
+            <p class="last-updated" id="lastUpdated">Last updated: Loading...</p>
+        </header>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search cameras...">
+            </div>
+            <div class="filter-group">
+                <label for="categoryFilter">Category:</label>
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="wired">Wired</option>
+                    <option value="wireless">Wireless</option>
+                    <option value="ptz">PTZ</option>
+                    <option value="bullet">Bullet</option>
+                    <option value="dome">Dome</option>
+                    <option value="nvr">NVR Systems</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="sortBy">Sort by:</label>
+                <select id="sortBy">
+                    <option value="name">Name</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                    <option value="category">Category</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="stats">
+            <span id="itemCount">0 items</span>
+        </div>
+
+        <div class="camera-grid" id="cameraGrid">
+            <!-- Camera cards will be inserted here -->
+        </div>
+
+        <div class="no-results" id="noResults" style="display: none;">
+            <p>No cameras found matching your criteria.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Prices are fetched daily from manufacturer websites. <a href="https://github.com" target="_blank">View on GitHub</a></p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

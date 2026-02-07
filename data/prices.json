@@ -1,0 +1,85 @@
+{
+  "last_updated": "2024-01-15T10:30:00Z",
+  "cameras": [
+    {
+      "id": "cr63-outdoor",
+      "name": "CR63 Outdoor Camera",
+      "model": "CR63-4MP-OUT",
+      "category": "bullet",
+      "price": 149.99,
+      "retailer": "Manufacturer Direct",
+      "url": "https://example.com/cr63-outdoor",
+      "description": "4MP outdoor bullet camera with night vision"
+    },
+    {
+      "id": "cr63-indoor",
+      "name": "CR63 Indoor Camera",
+      "model": "CR63-2MP-IN",
+      "category": "dome",
+      "price": 89.99,
+      "retailer": "Manufacturer Direct",
+      "url": "https://example.com/cr63-indoor",
+      "description": "2MP indoor dome camera"
+    },
+    {
+      "id": "ptz-pro-5mp",
+      "name": "PTZ Pro 5MP",
+      "model": "PTZ-5MP-30X",
+      "category": "ptz",
+      "price": 499.99,
+      "retailer": "Manufacturer Direct",
+      "url": "https://example.com/ptz-pro",
+      "description": "5MP PTZ camera with 30x optical zoom"
+    },
+    {
+      "id": "wireless-mini",
+      "name": "Wireless Mini Cam",
+      "model": "WL-MINI-1080P",
+      "category": "wireless",
+      "price": 59.99,
+      "retailer": "Manufacturer Direct",
+      "url": "https://example.com/wireless-mini",
+      "description": "1080p wireless indoor camera with WiFi"
+    },
+    {
+      "id": "wired-4k-bullet",
+      "name": "4K Wired Bullet",
+      "model": "WRD-4K-BLT",
+      "category": "wired",
+      "price": 249.99,
+      "retailer": "Manufacturer Direct",
+      "url": "https://example.com/4k-bullet",
+      "description": "4K wired bullet camera with PoE"
+    },
+    {
+      "id": "nvr-8ch",
+      "name": "8-Channel NVR",
+      "model": "NVR-8CH-4TB",
+      "category": "nvr",
+      "price": 399.99,
+      "retailer": "Manufacturer Direct",
+      "url": "https://example.com/nvr-8ch",
+      "description": "8-channel NVR with 4TB storage"
+    },
+    {
+      "id": "nvr-16ch",
+      "name": "16-Channel NVR",
+      "model": "NVR-16CH-8TB",
+      "category": "nvr",
+      "price": 699.99,
+      "retailer": "Manufacturer Direct",
+      "url": "https://example.com/nvr-16ch",
+      "description": "16-channel NVR with 8TB storage"
+    },
+    {
+      "id": "dome-vandal",
+      "name": "Vandal-Proof Dome",
+      "model": "DOME-VP-4MP",
+      "category": "dome",
+      "price": 179.99,
+      "retailer": "Manufacturer Direct",
+      "url": "https://example.com/dome-vandal",
+      "description": "4MP vandal-proof dome camera, IK10 rated"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# Claude Code planning files
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db

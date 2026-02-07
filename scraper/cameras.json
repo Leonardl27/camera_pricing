@@ -1,0 +1,92 @@
+{
+  "cameras": [
+    {
+      "id": "cr63-outdoor",
+      "name": "CR63 Outdoor Camera",
+      "model": "CR63-4MP-OUT",
+      "category": "bullet",
+      "url": "https://example.com/cr63-outdoor",
+      "retailer": "Manufacturer Direct",
+      "description": "4MP outdoor bullet camera with night vision",
+      "price_selector": ".product-price",
+      "enabled": true
+    },
+    {
+      "id": "cr63-indoor",
+      "name": "CR63 Indoor Camera",
+      "model": "CR63-2MP-IN",
+      "category": "dome",
+      "url": "https://example.com/cr63-indoor",
+      "retailer": "Manufacturer Direct",
+      "description": "2MP indoor dome camera",
+      "price_selector": ".product-price",
+      "enabled": true
+    },
+    {
+      "id": "ptz-pro-5mp",
+      "name": "PTZ Pro 5MP",
+      "model": "PTZ-5MP-30X",
+      "category": "ptz",
+      "url": "https://example.com/ptz-pro",
+      "retailer": "Manufacturer Direct",
+      "description": "5MP PTZ camera with 30x optical zoom",
+      "price_selector": ".product-price",
+      "enabled": true
+    },
+    {
+      "id": "wireless-mini",
+      "name": "Wireless Mini Cam",
+      "model": "WL-MINI-1080P",
+      "category": "wireless",
+      "url": "https://example.com/wireless-mini",
+      "retailer": "Manufacturer Direct",
+      "description": "1080p wireless indoor camera with WiFi",
+      "price_selector": ".product-price",
+      "enabled": true
+    },
+    {
+      "id": "wired-4k-bullet",
+      "name": "4K Wired Bullet",
+      "model": "WRD-4K-BLT",
+      "category": "wired",
+      "url": "https://example.com/4k-bullet",
+      "retailer": "Manufacturer Direct",
+      "description": "4K wired bullet camera with PoE",
+      "price_selector": ".product-price",
+      "enabled": true
+    },
+    {
+      "id": "nvr-8ch",
+      "name": "8-Channel NVR",
+      "model": "NVR-8CH-4TB",
+      "category": "nvr",
+      "url": "https://example.com/nvr-8ch",
+      "retailer": "Manufacturer Direct",
+      "description": "8-channel NVR with 4TB storage",
+      "price_selector": ".product-price",
+      "enabled": true
+    },
+    {
+      "id": "nvr-16ch",
+      "name": "16-Channel NVR",
+      "model": "NVR-16CH-8TB",
+      "category": "nvr",
+      "url": "https://example.com/nvr-16ch",
+      "retailer": "Manufacturer Direct",
+      "description": "16-channel NVR with 8TB storage",
+      "price_selector": ".product-price",
+      "enabled": true
+    },
+    {
+      "id": "dome-vandal",
+      "name": "Vandal-Proof Dome",
+      "model": "DOME-VP-4MP",
+      "category": "dome",
+      "url": "https://example.com/dome-vandal",
+      "retailer": "Manufacturer Direct",
+      "description": "4MP vandal-proof dome camera, IK10 rated",
+      "price_selector": ".product-price",
+      "enabled": true
+    }
+  ]
+}
